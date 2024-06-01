@@ -22,10 +22,15 @@ body {
   gap: 20px;
 }
 
+.social2 {
+  display: flex;
+  flex-direction: row;
+}
+
 .phone {
   display: flex;
   flex-direction: row;
-  margin-right: 40px;
+  margin-right: 20px;
 }
 
 .message {
@@ -45,20 +50,19 @@ body {
   display: flex;
   flex-direction: row;
   padding-right: 100px;
-  gap: 20px;
+  gap: 25px;
   align-items: center;
 }
 
 .navlinks a {
   text-decoration: none;
-  font-size: 15px;
   font-weight: bold;
   color: inherit;
 }
 
 .department {
   border: none;
-  font-size: 15px;
+  font-size: 10.5px;
   font-weight: bold;
   background: none;
   padding-right: 10px;
@@ -69,23 +73,24 @@ body {
   position: absolute;
   display: inline;
   left: 230px;
-  top: 280px;
+  top: 200px;
   font-weight: bold;
-  font-size: 50px;
+  font-size: 35px;
 }
 
 .bt {
   position: absolute;
   display: inline;
   left: 230px;
-  top: 550px;
+  top: 400px;
 }
 
 .play {
   position: absolute;
   display: inline;
-  top: 15px;
-  left: 270px;
+  width: 20px;
+  top: 5px;
+  left: 185px;
 }
 
 .a {
@@ -97,8 +102,11 @@ body {
   border: none;
   border-radius: 5px;
   color: white;
-  padding: 20px;
-  font-size: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 10px;
   margin-right: 70px;
 }
 
@@ -107,9 +115,9 @@ body {
   border-radius: 5px;
   display: inline;
   position: absolute;
-  top: 735px;
-  left: 208px;
-  padding: 20px 25px;
+  top: 520px;
+  left: 190px;
+  padding: 10px 25px;
   box-shadow: 1px 1px rgb(238, 238, 238);
 }
 
@@ -161,11 +169,11 @@ body {
   border: none;
   border-radius: 5px;
   color: white;
-  padding-right: 50px;
-  padding-left: 50px;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  font-size: 15px;
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 10px;
 }
 
 .hdg2 {
@@ -196,24 +204,23 @@ body {
 
 .img01 {
   position: absolute;
-  top: 3900px;
+  top: 3130px;
   z-index: -1;
-  height: 700px;
+  height: 550px;
   width: 100%;
 }
 
 .img02 {
   position: absolute;
-  top: 4250px;
+  top: 3400px;
 }
 
 .news {
   position: absolute;
-  top: 4360px;
-  left: 1080px;
+  top: 3475px;
+  left: 700px;
   border-bottom: 1px solid;
   border-color: black;
-  padding-bottom: 5px;
 }
 
 .bt3 {
@@ -221,22 +228,24 @@ body {
   border: none;
   border-radius: 5px;
   color: white;
-  padding-right: 30px;
-  padding-left: 30px;
+  padding-right: 20px;
+  padding-left: 20px;
   padding-top: 10px;
   padding-bottom: 10px;
-  font-size: 15px;
+  margin-bottom: 5px;
+  font-size: 10px;
 }
 
 .in {
   padding-right: 60px;
   border: none;
+  font-size: 12px;
 }
 
 .footer {
   background-color: #fefefe;
-  margin-top: 500px;
-  padding-left: 200px;
-  padding-right: 200px;
+  margin-top: 450px;
+  padding-left: 170px;
+  padding-right: 170px;
 }
 
